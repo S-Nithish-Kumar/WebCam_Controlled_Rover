@@ -50,7 +50,7 @@
 - The following diagram shows the basic kinematics of the Rover (or any differential drive robot).
 
 <p align="center">
-<img src="images/kinematics_of_the_rover.png" height="70%" width="70%">
+<img src="images/kinematics_of_the_rover.png" height="90%" width="90%">
 </p>
 <p align="center">Figure 2 Kinematics of the Rover</p>
 
@@ -61,7 +61,7 @@
 - The kinematic equations derived for the differential drive robot are implemented in Simulink, as shown below in the Figure.
 
 <p align="center">
-<img src="images/implementation_of_differential_drive_robot_in_simulink.png" height="90%" width="90%">
+<img src="images/implementation_of_differential_drive_robot_in_simulink.png" height="100%" width="100%">
 </p>
 <p align="center">Figure 3 Implementation of differential drive robot in Simulink</p>
 
@@ -69,21 +69,21 @@
 - The output of the ConvToWheelVel subsystem, i.e., wl and wr, is fed into the Rover Simulation subsystem, as shown below, for simulating the rover's movement.
 
 <p align="center">
-<img src="images/kinematic_equation_simulation.png" height="90%" width="90%">
+<img src="images/kinematic_equation_simulation.png" height="100%" width="100%">
 </p>
 <p align="center">Figure 4 Kinematic Equation Simulation</p>
 
 - The location (x, y) and the heading (θ) of the Rover in an X-Y coordinate system can be described using the following equations:
 
 <p align="center">
-<img src="images/rover_location_and_heading_equation.png" height="40%" width="40%">
+<img src="images/rover_location_and_heading_equation.png" height="20%" width="20%">
 </p>
 <p align="center">Figure 5 Rover location and heading equation</p>
 
 - The Rover Simulation subsystem has three subsystems: Encoder Simulation, Vehicle Kinematics, and a robot path plotter.
 
 <p align="center">
-<img src="images/rover_simulation_subsystem.png" height="90%" width="90%">
+<img src="images/rover_simulation_subsystem.png" height="100%" width="100%">
 </p>
 <p align="center">Figure 5 Rover Simulation Subsystem</p>
 
@@ -93,7 +93,7 @@
 - Opening the plotRobot MATLAB Function block shows the robot's position.
 
 <p align="center">
-<img src="images/map_of_the_robot.png" height="90%" width="90%">
+<img src="images/map_of_the_robot.png" height="100%" width="100%">
 </p>
 <p align="center">Figure 6 Map of the Robot</p>
 
@@ -101,7 +101,7 @@
 - The input signals and the convToWheelVel subsystem are the same as in the previous model, but the rotational speeds are sent directly to the actual motors that are presented as blocks inside the model.
 
 <p align="center">
-<img src="images/open_loop_control.png" height="90%" width="90%">
+<img src="images/open_loop_control.png" height="100%" width="100%">
 </p>
 <p align="center">Figure 7 Open Loop Control</p>
 
